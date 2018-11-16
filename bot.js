@@ -33,4 +33,4 @@ client.on('message', message => {
 
 process.on("unhandledRejection", err => { console.log(`Unhandled rejection: ${err.stack}`) });
 
-bot.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
